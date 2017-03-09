@@ -10,11 +10,14 @@ import Foundation
 
 var myTown = Town()
 //print("Population: \(myTown.population), number of stoplights: \(myTown.numberOfStoplights)")
-myTown.changePopulation(by: 500)
+myTown.changePopulation(by: -5420)
 
-myTown.printDescription()
+//myTown.printDescription()
+//let genericeMonster = Monster()
+//genericeMonster.town = myTown
+//genericeMonster.terrorizeTown()
 
-let genericeMonster = Monster()
-genericeMonster.town = myTown
-genericeMonster.terrorizeTown()
-
+let fredTheZombie = Zombie()
+fredTheZombie.town = myTown
+fredTheZombie.terrorizeTown()
+fredTheZombie.town?.printDescription()

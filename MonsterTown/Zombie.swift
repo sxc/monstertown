@@ -11,7 +11,20 @@ class Zombie: Monster {
     var walksWithLimp = true
     
      final override func terrorizeTown() {
-        town?.changePopulation(by: -10)
+        
+        if let currentPopulation = town?.population {
+            switch currentPopulation {
+            case 0:
+                print("a town without anyone except zombies!")
+            case 1...10:
+                print("zombile killed all people now")
+            default:
+                town?.changePopulation(by: -10)
+            
         super.terrorizeTown()
+            
+            }
+        }
+        
     }
 }
