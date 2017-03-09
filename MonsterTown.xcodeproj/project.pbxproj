@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		342A1EEA1E70FEDE00E997E8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A1EE91E70FEDE00E997E8 /* main.swift */; };
 		342A1EF11E70FF5C00E997E8 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A1EF01E70FF5C00E997E8 /* Town.swift */; };
+		34514F3E1E7111E5001FF173 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34514F3D1E7111E5001FF173 /* Monster.swift */; };
+		34514F401E71144F001FF173 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34514F3F1E71144F001FF173 /* Zombie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		342A1EE61E70FEDE00E997E8 /* MonsterTown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterTown; sourceTree = BUILT_PRODUCTS_DIR; };
 		342A1EE91E70FEDE00E997E8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		342A1EF01E70FF5C00E997E8 /* Town.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Town.swift; path = ../Town.swift; sourceTree = "<group>"; };
+		34514F3D1E7111E5001FF173 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		34514F3F1E71144F001FF173 /* Zombie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				342A1EF01E70FF5C00E997E8 /* Town.swift */,
 				342A1EE91E70FEDE00E997E8 /* main.swift */,
+				34514F3D1E7111E5001FF173 /* Monster.swift */,
+				34514F3F1E71144F001FF173 /* Zombie.swift */,
 			);
 			path = MonsterTown;
 			sourceTree = "<group>";
@@ -125,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				342A1EEA1E70FEDE00E997E8 /* main.swift in Sources */,
+				34514F401E71144F001FF173 /* Zombie.swift in Sources */,
+				34514F3E1E7111E5001FF173 /* Monster.swift in Sources */,
 				342A1EF11E70FF5C00E997E8 /* Town.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +265,7 @@
 				342A1EEF1E70FEDE00E997E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
