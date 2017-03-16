@@ -9,8 +9,21 @@
 import Foundation
 
 struct Town {
-    var population = 5_420
-    var numberOfStoplights = 4
+    let region: String
+    
+    var population: Int
+    var numberOfStoplights: Int
+    
+    init(region: String, population: Int, stoplights: Int) {
+        self.region = region
+        self.population = population
+        numberOfStoplights = stoplights
+        
+    }
+    
+    init(population: Int, stoplights: Int) {
+        self.init(region: "N/A", population: population, stoplights: stoplights)
+    }
     
     func printDescription() {
         print("Population: \(population); number of stoplights: \(numberOfStoplights)")
