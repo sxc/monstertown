@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3458E715266DAEC400BA0421 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458E714266DAEC400BA0421 /* main.swift */; };
+		3458E71C266DAFCB00BA0421 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458E71B266DAFCB00BA0421 /* Town.swift */; };
+		3458E71E266DB4B100BA0421 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458E71D266DB4B100BA0421 /* Monster.swift */; };
+		3458E720266DB8C800BA0421 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458E71F266DB8C800BA0421 /* Zombie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		3458E711266DAEC400BA0421 /* MonsterTown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterTown; sourceTree = BUILT_PRODUCTS_DIR; };
 		3458E714266DAEC400BA0421 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3458E71B266DAFCB00BA0421 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
+		3458E71D266DB4B100BA0421 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		3458E71F266DB8C800BA0421 /* Zombie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				3458E714266DAEC400BA0421 /* main.swift */,
+				3458E71B266DAFCB00BA0421 /* Town.swift */,
+				3458E71D266DB4B100BA0421 /* Monster.swift */,
+				3458E71F266DB8C800BA0421 /* Zombie.swift */,
 			);
 			path = MonsterTown;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3458E715266DAEC400BA0421 /* main.swift in Sources */,
+				3458E720266DB8C800BA0421 /* Zombie.swift in Sources */,
+				3458E71E266DB4B100BA0421 /* Monster.swift in Sources */,
+				3458E71C266DAFCB00BA0421 /* Town.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
