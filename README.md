@@ -1,2 +1,0 @@
-# Monster Town
-Monster Town
